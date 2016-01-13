@@ -1,0 +1,12 @@
+name = "pretty"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+description = "basic, pretty theme"
+homepage = "http://nonis.me"
+tags = ["", ""]
+features = ["", ""]
+min_version = 0.14
+
+[author]
+  name = "nonis"
+  homepage = "http://nonis.me"
