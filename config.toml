@@ -1,0 +1,6 @@
+baseurl = "http://www.nonis.me"
+languageCode = "en-us"
+title = "nonis"
+theme = "pretty"
+
+pygmentsuseclasses = true
