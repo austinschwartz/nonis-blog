@@ -1,0 +1,95 @@
+body {
+  font-family: "Nunito", sans-serif;
+  color: #000;
+  font-size: larger;
+  line-height: 1.4em;
+  font-size: 1.05em;
+  font-weight: 300;
+  width: 900px;
+  margin: 0 auto;
+  background: #FFF; }
+
+#logo {
+  font-family: "hydrophilia-iced";
+  font-size: 4em;
+  text-decoration: none;
+  margin: 10px 10px 0 0;
+  float: left; }
+
+h1, h2, h3, em, strong {
+  font-weight: 400; }
+
+h1, h2, h3, h4 {
+  text-align: left; }
+
+.content h1, .footer h1, h2, h3 {
+  font-family: "Merriweather", serif;
+  line-height: 1em; }
+
+a {
+  color: #000;
+  text-decoration: none; }
+
+.post a {
+  color: #ff5555;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out; }
+  .post a:hover {
+    color: #ff5555;
+    border-bottom: 1px dotted #ff5555; }
+  ul .post a {
+    text-decoration: none;
+    color: #000; }
+
+.wrapper {
+  margin-top: 35px;
+  background: white; }
+
+.header {
+  margin-left: 70px;
+  padding-bottom: 20px; }
+
+.content, .footer {
+  width: 640px;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 1.5em; }
+
+.menu {
+  position: relative;
+  top: 15px; }
+
+.menu li {
+  display: inline;
+  margin: 15px; }
+
+code {
+  background: #eee;
+  font-size: 14px;
+  margin-right: 10px; }
+
+pre {
+  background-color: #333233;
+  padding: 7px; }
+
+pre code {
+  color: #fff;
+  background-color: #333233;
+  font-family: monaco,Consolas,Lucida Console,monospace; }
+
+#bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 5px;
+  /*background-image: linear-gradient(to left, $main-color 0%, $main-color 100%);*/
+  background-color: #ff5555;
+  z-index: 10001;
+  /*background: url(http://i.imgur.com/aLodVU4.jpg);*/
+  background-size: cover;
+  background-position: left 60%;
+  overflow: hidden; }

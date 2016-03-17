@@ -1,0 +1,141 @@
+$background: #282a36;
+$current:    #44475a;
+$selection:  #44475a;
+$foreground: #f8f8f2;
+$comment:    #6272a4;
+$cyan:       #8be9fd;
+$green:      #50fa7b;
+$orange:     #ffb86c ;
+$pink:       #ff79c6;
+$purple:     #bd93f9;
+$red:        #ff5555;
+$yellow:     #f1fa8c;
+$white:      #FFF;
+$black:      #000;
+
+
+$main-font: "Nunito", sans-serif;
+$header-font: "Merriweather", serif;
+$title-font: "hydrophilia-iced";
+$a-color:          $red;
+$h-color:          $black;
+$main-color:       $black;
+$hover-color:      $red;
+$background-color: $white;
+
+body {
+  font-family: $main-font;
+  color: $main-color;
+  font-size: larger;
+  line-height: 1.4em;
+  font-size: 1.05em;
+  font-weight: 300;
+  width: 900px;
+  margin: 0 auto;
+  background: $background-color;
+}
+
+#logo {
+    font-family: $title-font;
+    font-size: 4em;
+    text-decoration: none;
+    margin: 10px 10px 0 0;
+    float: left;
+}
+
+h1, h2, h3, em, strong {font-weight: 400;}
+h1, h2, h3, h4 {text-align: left;}
+
+em {
+}
+
+strong {
+}
+
+.content h1, .footer h1, h2, h3 {
+  font-family: $header-font; 
+  line-height: 1em;
+}
+
+a {
+  color: $main-color;
+  text-decoration: none;
+}
+.post a {
+   color: $a-color;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+  &:hover {
+    color: $hover-color;
+    border-bottom: 1px dotted $hover-color;
+  }
+  ul & {
+    text-decoration: none;
+    color: $main-color;
+  }
+}
+
+.wrapper {
+    margin-top: 35px;
+    background: white;
+}
+
+.header {
+    margin-left: 70px;
+    padding-bottom: 20px;
+}
+
+.content, .footer {
+    width: 640px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.menu {
+    position: relative;
+    top: 15px;
+}
+
+.menu li {
+    display: inline;
+    margin: 15px;
+}
+
+code {
+  background: #eee;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+pre {
+  background-color: #333233;
+  padding: 7px;
+}
+
+pre code {
+  color: #fff;
+  background-color: #333233;
+  font-family: monaco,Consolas,Lucida Console,monospace; 
+}
+
+#bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 5px;
+  /*background-image: linear-gradient(to left, $main-color 0%, $main-color 100%);*/
+  background-color: $a-color;
+  z-index: 10001;
+
+  /*background: url(http://i.imgur.com/aLodVU4.jpg);*/
+  background-size: cover;
+  background-position: left 60%;
+  overflow: hidden;
+}
+
+
